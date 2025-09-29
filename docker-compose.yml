@@ -19,4 +19,5 @@ services:
       - --execution.forwarding-target=wss://capx-mainnet.calderachain.xyz/ws
       - --node.feed.input.url=wss://capx-mainnet.calderachain.xyz/feed
       - --node.data-availability.rest-aggregator.urls="https://capx-mainnet.calderachain.xyz/rest-aggregator"
+      - --parent-chain.blob-client.beacon-url=[Your Beacon RPC]
       - --parent-chain.connection.url=[Your Ethereum RPC]
