@@ -5,7 +5,7 @@ volumes:
 
 services:
   l2:
-    image: offchainlabs/nitro-node:v3.6.7-a7c9f1e
+    image: offchainlabs/nitro-node:v3.8.0-62c0aa7
     platform: linux/amd64
     ports:
       - "8545:8545"
